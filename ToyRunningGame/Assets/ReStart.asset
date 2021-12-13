@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ReStart
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"\uac8c\uc784
+      \uc7ac\uc2dc\uc791","summary":null,"pan":{"x":176.0,"y":11.0},"zoom":1.0,"elements":[{"defaultValues":{"duration":{"$content":1.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-67.0,"y":-70.0},"guid":"0dbd22d2-4362-4394-be86-2df08e8d6dc6","$version":"A","$type":"Bolt.Timer","$id":"9"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"GameScene_1","$type":"System.String"}},"position":{"x":250.0,"y":-97.0},"guid":"e016969c-0e02-4dcb-b38f-a04355d3c186","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"completed","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"f2432059-c872-4844-8ce8-f2aa2302ebc6","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
